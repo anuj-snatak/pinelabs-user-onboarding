@@ -28,7 +28,7 @@ node {
             sendEmail   : params.SEND_EMAIL,
             adminCreds  : "jenkins-admin-token",
             jenkinsUrl  : "http://localhost:8080",
-            adminUser   : "anuj"
+            adminUser   : "admin"
         ]
 
         new user_onboarding(this, config).execute()
